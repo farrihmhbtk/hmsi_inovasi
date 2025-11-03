@@ -5,7 +5,7 @@ Admin HMSI | Beranda
 <?= $this->endSection() ?>
 
 <?= $this->section("halaman") ?>
-Selamat Datang <span class="tx-primary">Sobat Inovasi ✨</span>
+Selamat Datang <span class="tx-primary">Arek Niskalarasi ✨</span>
 <?= $this->endSection() ?>
 
 <?= $this->section("konten") ?>
@@ -238,7 +238,7 @@ Selamat Datang <span class="tx-primary">Sobat Inovasi ✨</span>
         new Chart(ctx1, {
             type: 'bar',
             data: {
-                labels: ["ES","EA","HRD","IM","IA","RTA","SocDev","SWF","TechDev"],
+                labels: ["ES","EA","HRD","IM","IA","RND","SocDev","SWF"],
                 datasets: [{
                     data: [
                         <?php
